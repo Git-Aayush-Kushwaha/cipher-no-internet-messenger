@@ -21,6 +21,11 @@ Discovery: The app uses the WifiP2pManager to scan for nearby devices running Ci
 Handshake: Once a peer is selected, one device acts as the Group Owner (Server) and the other as the Client.
 The Stream: A dedicated ChatManager opens a DataOutputStream. It sends a "Header" (stating if the data is text or an image), followed by the "Length" of the data, and finally the "Payload."
 Security: Runs as a Foreground Service with connectedDevice type to ensure the OS doesn't kill the connection during a chat.
+📱 At a Glance
+![Screenshot_20260214_222426_Cipher](https://github.com/user-attachments/assets/186fa727-ecd1-44c3-b1cb-55cc866cbbad)
+![Screenshot_20260214_222426_Cipher](https://github.com/user-attachments/assets/186fa727-ecd1-44c3-b1cb-55cc866cbbad)
+![Screenshot_20260214_222559_Cipher](https://github.com/user-attachments/assets/8c4040d4-0187-4975-a135-8ef6216a5199)
+![Screenshot_20260214_222559_Cipher](https://github.com/user-attachments/assets/8c4040d4-0187-4975-a135-8ef6216a5199)
 
 ## 📖 Documentation & Wiki
 Want to dive deeper into how Cipher handles P2P networking? Check out our [Project Wiki](https://github.com/YOUR_USERNAME/Cipher/wiki).
