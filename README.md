@@ -22,6 +22,13 @@ Handshake: Once a peer is selected, one device acts as the Group Owner (Server) 
 The Stream: A dedicated ChatManager opens a DataOutputStream. It sends a "Header" (stating if the data is text or an image), followed by the "Length" of the data, and finally the "Payload."
 Security: Runs as a Foreground Service with connectedDevice type to ensure the OS doesn't kill the connection during a chat.
 
+## 📖 Documentation & Wiki
+Want to dive deeper into how Cipher handles P2P networking? Check out our [Project Wiki](https://github.com/YOUR_USERNAME/Cipher/wiki).
+**Inside the Wiki:**
+* **Network Protocol:** How we handle data without a router.
+* **Message Lifecycle:** From `EditText` to the receiver's `RecyclerView`.
+* **Permissions Guide:** Navigating Android 14+ security.
+
 📲 Installation
 Clone this repository.
 Open in Android Studio (Ladybug or newer recommended).
