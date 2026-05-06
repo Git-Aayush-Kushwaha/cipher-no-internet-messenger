@@ -33,7 +33,7 @@ Security: Runs as a Foreground Service with connectedDevice type to ensure the O
 </details>
 
 ## 📖 Documentation & Wiki
-Want to dive deeper into how Cipher handles P2P networking? Check out our [Project Wiki](https://github.com/Git-Aayush-Kushwaha/cipher-no-internet-messenger.wiki.git).
+Want to dive deeper into how Cipher handles P2P networking? Check out our [Project Wiki](https://github.com/Git-Aayush-Kushwaha/cipher-no-internet-messenger/wiki).
 **Inside the Wiki:**
 * **Network Protocol:** How we handle data without a router.
 * **Message Lifecycle:** From `EditText` to the receiver's `RecyclerView`.
